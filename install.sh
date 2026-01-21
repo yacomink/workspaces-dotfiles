@@ -25,3 +25,7 @@ while read df; do
   mkdir -p "$(dirname "$link")"
   ln -sf "$df" "$link"
 done
+
+sudo apt install gh
+
+
